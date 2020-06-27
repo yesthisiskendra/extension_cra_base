@@ -1,11 +1,23 @@
 {
-  "name": "CRA Base",
-  "description": "CRA Base Extension",
+  "name": "Check Meowt",
+  "description": "Turn offensive images into fun with the click of a button!",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "index.html",
-    "default_title": "BaseCRAApp"
+    "default_title": "BaseCRAApp",
+    "default_icon": {
+      "16": "/images/checkmeowt_16.png",
+      "32": "/images/checkmeowt_32.png",
+      "48": "/images/checkmeowt_48.png",
+      "128": "/images/checkmeowt_128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/checkmeowt_16.png",
+    "32": "/images/checkmeowt_32.png",
+    "48": "/images/checkmeowt_48.png",
+    "128": "/images/checkmeowt_128.png"
   },
   "content_scripts": [
     {
